@@ -1,0 +1,120 @@
+/*colors and fonts*/
+body {
+    background-color: transparent;
+    color: rgb(30,30,30);
+    font-family: Courier;
+    font-size: 15px;
+}
+
+
+h1,h2,h3 {
+
+	font-family: 'Anton', sans-serif;
+    letter-spacing: 10px;
+}
+
+
+h1 {
+    color: #9d0191;
+    font-size: 27px;
+    font-weight: 900;
+}
+
+ h2 {
+     color: #9d0191;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+a{
+    text-decoration: none;
+    color: #6B72E1;
+    font-weight: bold;
+}
+
+
+a:hover{
+    color: #9d0191;
+}
+
+/*Custom design with class*/
+
+.container {
+      background: rgba(0, 0, 0, 0.1);
+      padding: 30px;
+      margin: 230px;
+      box-shadow: 0px 30px 30px;
+      border-radius: 4px;
+}
+
+@media (max-width: 760px) {
+.container {
+width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+.container {
+width: 400px;
+
+	}
+}
+
+
+.card-white {
+background-color: white;
+padding: 40px;
+box-shadow: 0px 10px 30px;
+border-radius: 4px;
+margin: 20px 0px;
+text-align: center;
+}
+
+
+.text-justify {
+text-align: justify;
+}
+
+.img-circle {
+border-radius: 10%;
+}
+
+
+.btn-purple {
+background-color: purple;
+color: white;
+padding: 10px 25px;
+border-radius: 10px;
+
+}
+
+.btn-purple:hover {
+background-color: grey;
+
+}
+
+.list-inline {
+list-style: none;
+padding-left: 0px;
+
+}
+
+.list-inline li {
+display: inline;
+padding: 10px;
+}
+
+.list-inline i {
+font-size: 30px;
+color: #6B72E1;
+}
+
+.list-inline i:hover {
+color:rgb(230,230,230);
+}
+
+
+/*Design adjustments using id*/
+#introduction p {
+	margin-bottom: 30px;
+}
